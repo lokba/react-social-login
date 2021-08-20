@@ -3,7 +3,7 @@ import React from 'react';
 const NoMatchPage = () => {
     return (
         <div>
-            no match page!
+            this is no match page!
         </div>
     );
 };

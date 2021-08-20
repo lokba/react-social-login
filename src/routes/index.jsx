@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import LoginPage from '../pages/LoginPage';
-import NoMatchPage from '../pages/NoMatchPage';
+import NoMatchPage from '../pages/NoMatch';
+
 
 const RootRoute = () => {
     return (
