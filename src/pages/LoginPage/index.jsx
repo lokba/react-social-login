@@ -1,13 +1,27 @@
 import React from 'react';
-import { LoginBlock } from './styled';
+import { LoginBox, LoginWrapper } from './styled';
 
 const LoginPage = () => {
     return (
-        <LoginBlock>
-            <div>
-                fefe
-            </div>
-        </LoginBlock>
+        <LoginWrapper>
+            <LoginBox>
+                <h2>소셜 로그인</h2>
+                <ul>
+                    <li>
+                        <button>KAKAO로 로그인</button>
+                    </li>
+                    <li>
+                        <button>NAVER로 로그인</button>
+                    </li>
+                    <li>
+                        <button>GOOGLE로 로그인</button>
+                    </li>
+                    <li>
+                        <button>GITHUB로 로그인</button>
+                    </li>
+                </ul>
+            </LoginBox>
+        </LoginWrapper>
     );
 };
 
