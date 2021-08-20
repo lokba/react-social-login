@@ -1,10 +1,13 @@
 import React from 'react';
+import { LoginBlock } from './styled';
 
 const LoginPage = () => {
     return (
-        <div>
-            hello this is loginpage!
-        </div>
+        <LoginBlock>
+            <div>
+                fefe
+            </div>
+        </LoginBlock>
     );
 };
 
