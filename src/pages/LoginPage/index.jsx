@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleSignUp from '../../components/google';
 import KakaoSignUp from '../../components/kakao';
+import NaverSignUp from '../../components/naver';
 import { LoginBox, LoginWrapper } from './styled';
 
 const LoginPage = () => {
@@ -16,10 +17,7 @@ const LoginPage = () => {
                         <GoogleSignUp />
                     </li>
                     <li>
-                        <button>NAVER로 로그인</button>
-                    </li>
-                    <li>
-                        <button>GITHUB로 로그인</button>
+                        <NaverSignUp />
                     </li>
                 </ul>
             </LoginBox>

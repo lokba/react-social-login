@@ -28,16 +28,18 @@ export const LoginBox = styled.div`
         li{
             text-align:center;
             margin-top:20px;
+            cursor:pointer;
 
-            button{
-                cursor:pointer;
-                padding:12px;
-                font-size:16px;
+            div{
+                font-size:18px;
+                color:white;
+                background-color:#36D169;
+                padding:10px;
             }
 
             &:hover{
                 box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.2)
-            }
+            } 
         }
     }
 `
