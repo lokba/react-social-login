@@ -1,4 +1,5 @@
 import React from 'react';
+import GoogleSignUp from '../../components/google';
 import KakaoSignUp from '../../components/kakao';
 import { LoginBox, LoginWrapper } from './styled';
 
@@ -12,7 +13,7 @@ const LoginPage = () => {
                         <KakaoSignUp />
                     </li>
                     <li>
-                        <button>GOOGLE로 로그인</button>
+                        <GoogleSignUp />
                     </li>
                     <li>
                         <button>NAVER로 로그인</button>

@@ -18,15 +18,12 @@ const KakaoSignUp = () => {
         }
     }, [userInfo]);
 
-    const responseFail = (err) => {
-        alert(err);
-    }
+
 
     return (
         <KaKaoBtn
             token={'e28886760e43e257592ccbb650b15727'}
             onSuccess={responseKaKao}
-            onFailure={responseFail}
             getProfile={true}
         />
     )
