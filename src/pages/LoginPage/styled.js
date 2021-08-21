@@ -26,8 +26,6 @@ export const LoginBox = styled.div`
 
     ul{
         li{
-            border:1px solid black;
-            border-radius:10px;
             text-align:center;
             margin-top:20px;
 
@@ -38,7 +36,7 @@ export const LoginBox = styled.div`
             }
 
             &:hover{
-                background:rgba(0,0,0,0.1);
+                box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.2)
             }
         }
     }
