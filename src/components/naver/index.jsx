@@ -7,9 +7,9 @@ const NaverSignUp = () => {
     useEffect(() => {
         if (userInfo) {
             const token = localStorage.getItem('com.naver.nid.access_token');
+            console.log("access_token", token.slice(7));
             console.log("email", userInfo.data.email);
             console.log("nickname", userInfo.data.nickname);
-            console.log("access_token", token.slice(7));
         }
     }, [userInfo]);
 
