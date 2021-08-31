@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import GoogleSignUp from '../../components/google';
 import KakaoSignUp from '../../components/kakao';
 import NaverSignUp from '../../components/naver';
 import { LoginBox, LoginWrapper } from './styled';
+import ReactGa from 'react-ga'
 
+ReactGa.initialize("G-MQPQ38BGHY");
 const LoginPage = () => {
+
+    useEffect(() => {
+        ReactGa.pageview(window.location.pathname);
+    }, []);
+
     return (
         <LoginWrapper>
             <LoginBox>
