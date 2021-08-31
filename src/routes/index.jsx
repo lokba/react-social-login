@@ -17,4 +17,4 @@ const RootRoute = () => {
     );
 };
 
-export default withRouter(RootRoute);
+export default RootRoute;

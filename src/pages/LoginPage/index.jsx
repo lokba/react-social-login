@@ -5,10 +5,10 @@ import NaverSignUp from '../../components/naver';
 import { LoginBox, LoginWrapper } from './styled';
 import ReactGa from 'react-ga'
 
-ReactGa.initialize("G-MQPQ38BGHY");
 const LoginPage = () => {
 
     useEffect(() => {
+        ReactGa.initialize("G-MQPQ38BGHY");
         ReactGa.pageview(window.location.pathname);
     }, []);
 
